@@ -1,0 +1,282 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, rgb(0, 0, 0, 1), rgb(5, 4, 67));
+}
+.container-fluid{
+    padding: 1% 4% 0%;
+}
+
+/* navbar */
+.navbar{
+    padding: 0 0 4.5rem 0;
+    padding-bottom: 12px;
+}
+.navbar-brand{
+    font-size: 2.0rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: #a6a6a6;
+}
+
+/* intro */
+#intro .stars{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -100;
+}
+
+.name h1{
+    font-size: 5rem;
+    color: white;
+    padding-bottom: 3%;
+    margin-top: 0px;
+}
+
+.name p{
+    margin-bottom: 0px;
+    font-size: 3rem;
+    color: white;
+}
+.name-desc{
+    font-size: 2.2rem;
+    color: white;
+}
+
+.intro-sec{
+    padding: 5% 1%;
+}
+
+.earth-img{
+    margin-left: 30%;
+    width: 35%;
+}
+
+.moon{
+    width: 45%;
+    position: absolute;
+    z-index: -1;
+    left: 40%;
+}
+
+.astro-rocket{
+    width: 70%;
+}
+
+@media (max-width : 1286px){
+    .name h1{
+        font-size: 3.5rem;
+        color: white;
+        padding-bottom: 3%;
+        margin-top: 0px;
+    }
+    
+    .name p{
+        margin-bottom: 0px;
+        font-size: 2.2rem;
+        color: white;
+    }
+    .name-desc{
+        font-size: 1.6rem;
+        color: white;
+    }
+}
+
+@media (max-width : 1020px){
+    .name h1{
+        font-size: 2.5rem;
+        color: white;
+        padding-bottom: 3%;
+        margin-top: 0px;
+    }
+    
+    .name p{
+        margin-bottom: 0px;
+        font-size: 1.3rem;
+        color: white;
+    }
+    .name-desc{
+        font-size: 1.2Srem;
+        color: white;
+    } 
+    .navbar-brand{
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+}
+
+@media (max-width : 715px){
+    .name h1{
+        font-size: 1.3rem;
+        color: white;
+        padding-bottom: 3%;
+        margin-top: 0px;
+    }
+    
+    .name p{
+        margin-bottom: 0px;
+        font-size: 1rem;
+        color: white;
+    }
+    .name-desc{
+        font-size: 0.8rem;
+        color: white;
+    } 
+    .container-fluid{
+        padding: 1% 6% 0%;
+    }
+    .navbar-brand{
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+    .nav-link{
+        color: white;
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+}
+
+/* about */
+
+#about{
+    margin-top: 5%;
+    background-image: url("images/stars.png");
+}
+.about-desc .about-me h1{
+    color: #dfd4ca;
+    font-size: 2.3rem;
+    padding-bottom: 4%;
+    font-weight: bold;
+}
+.about-me p{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.2rem;
+}
+
+.planet7{
+    position: absolute;
+    width:40%;
+    right: 0%;
+}
+.astro-hi{
+    width: 70%;
+}
+
+
+#education{
+    margin-top: 5%;
+    background-image: url("images/stars.png");
+}
+
+
+span{
+    margin-right:1.5%;
+}
+
+.education-desc h1{
+    color: #dfd4ca;
+    font-size: 2.3rem;
+}
+
+.college p{
+    color: white;
+    font-size: 1.2rem;
+    padding: 2% 0px;
+}
+
+.earth-2{
+    position: relative;
+    left: -50%;
+    top: -30%;
+    width: 70%;
+}
+
+.astro-book{
+    position: absolute;
+    left: 10%;
+    width: 75%;
+    top: 15%;
+}
+
+
+
+@media(max-width:1190px){
+    .about-desc .about-desc .about-me h1,.education-desc h1{
+        color: #dfd4ca;
+        font-size: 2rem;
+        padding-bottom: 4%;
+        font-weight: bold;
+    }
+    .about-desc .about-me .desc p, .college p{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        font-size: 1rem;
+    }
+    
+}
+
+
+@media(max-width:1015px){
+    .about-desc .about-me h1, .education-desc h1{
+        color: #dfd4ca;
+        font-size: 1.6rem;
+        padding-bottom: 4%;
+        font-weight: bold;
+    }
+    .about-desc .about-me .desc p, .college p{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        font-size: 0.8rem;
+    }
+    
+}
+
+
+@media(max-width:708px){
+    .about-desc .about-me h1,.education-desc h1{
+        color: #dfd4ca;
+        font-size: 1.3rem;
+        padding-bottom: 4%;
+        font-weight: bold;
+    }
+    .about-desc .about-me .desc p, .college p{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        font-size: 0.6rem;
+    }
+    
+}
+
+@media(max-width:540px){
+    .about-desc .about-me h1,.education-desc h1{
+        color: #dfd4ca;
+        font-size: 1rem;
+        padding-bottom: 4%;
+        font-weight: bold;
+    }
+    .about-desc .about-me .desc p, .college p{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        font-size: 0.4rem;
+    }
+    
+}
